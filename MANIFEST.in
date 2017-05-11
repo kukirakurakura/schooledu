@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include schoolapp *.css
+recursive-include schoolapp *.csv
+recursive-include schoolapp *.html
+recursive-include schoolapp *.ico
+recursive-include schoolapp *.js
+recursive-include schoolapp *.json
+recursive-include schoolapp *.md
+recursive-include schoolapp *.png
+recursive-include schoolapp *.py
+recursive-include schoolapp *.svg
+recursive-include schoolapp *.txt
+recursive-exclude schoolapp *.pyc
